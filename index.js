@@ -40,7 +40,7 @@ Issuer.discover(config['issuer'])
       code_challenge,
       code_challenge_method: 'S256',
     });
-    console.log("Open the following url in your browser, and paste you're redirect to here:");
+    console.log("Open the following url in your browser, and paste your redirect to here:");
     console.log(url + "\n");
 
     const rl = readline.createInterface({
